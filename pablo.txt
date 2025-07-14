@@ -1,0 +1,8 @@
+1. Abrir powershell
+2. minikube start --driver=docker
+4. minikube status
+5. ir al directorio donde tenga los yaml
+6. kubectl apply -f .
+7. Comprueba que los svc estan en modo LoadBalancer no NodePort
+8. abir otra terminal y hacer minikube tunnel
+9. URLS: check svc para las urls: http://127.0.0.1:8080/ y http://127.0.0.1:8081/
